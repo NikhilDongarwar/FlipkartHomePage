@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500&family=Qwitcher+Grypen&display=swap');
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --main-bg-color: #2874f0;
+  }
+footer{
+    color: aliceblue;
+    height: 35px;
+    background-color:var(--main-bg-color);
+    font-family: 'Khand', sans-serif;
+
+}
+header{
+    
+    background-color:var(--main-bg-color);
+    /* border: 2px solid red; */
+    font-family: 'Khand', sans-serif;
+    
+}
+nav ul{
+    display: flex;
+    height: 60px;
+    justify-content: start;
+    align-items: center;
+}
+nav ul li{
+    /* display: inline-block; */
+    list-style: none;
+    padding: 0px 23px;
+    display: flex;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 2px;
+}
+nav ul li a:hover{
+    font-weight: bold;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    
+}
+.logo img{
+    width: 90px;
+   padding: 0px 16px;
+}
+.contain{
+    min-height: calc(100vh - 35px - 60px);
+}
+.search{
+    
+display: flex;
+align-content: center;
+}
+.search input{
+    width: 30vw;
+    height: 25px;
+    border-radius: 3px;
+    margin: -1px 14px 0px 154px;
+}
+.search button{
+    font-family: 'Khand', sans-serif;
+    
+
+}
+.slider{
+    margin: 12px auto;
+    width: 80vw;
+    overflow: hidden;
+}
+.card{
+    font-family: 'Khand', sans-serif;
+    max-width: 91vw;
+    margin: auto;
+
+}
+.cards{
+    display: flex;
+    /* justify-content: center; */
+    
+}
+.card-item{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
